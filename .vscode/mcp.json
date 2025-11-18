@@ -1,0 +1,23 @@
+{
+  "mcp_version": "0.1.0",
+  "name": "skills-integrate-mcp-with-copilot",
+  "description": "Minimal MCP configuration for Copilot integration.",
+  "entry_points": {
+    "python": {
+      "path": "src/app.py",
+      "command": "python src/app.py"
+    }
+  },
+  "capabilities": ["read", "write"],
+  "metadata": {
+    "created_by": "copilot",
+    "created_at": "2025-11-18"
+  }
+}{
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  }
+}
